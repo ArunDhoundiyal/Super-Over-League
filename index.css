@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.card-container {
+  height: 100vh;
+  background-size: cover;
+  background-color: #0f172a;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-style {
+  color: #f8fafc;
+}
+
+.image-size {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-height: 768px) {
+  .image-size {
+    height: 300px;
+    width: 300px;
+  }
+}
